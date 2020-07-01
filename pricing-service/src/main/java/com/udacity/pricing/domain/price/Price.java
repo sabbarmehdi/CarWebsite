@@ -1,6 +1,8 @@
 package com.udacity.pricing.domain.price;
 
+
 import java.math.BigDecimal;
+
 
 public class Price {
 

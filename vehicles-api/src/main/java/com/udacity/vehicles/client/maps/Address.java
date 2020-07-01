@@ -1,22 +1,16 @@
 package com.udacity.vehicles.client.maps;
 
 /**
- * declares a class to store an address, city, state and zip code.
+ * Declares a class to store an address, city, state and zip code.
  */
 public class Address {
+
     private String address;
     private String city;
     private String state;
     private String zip;
 
     public Address() {
-    }
-
-    public Address(String address, String city, String state, String zip) {
-        this.address = address;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
     }
 
     public String getAddress() {
